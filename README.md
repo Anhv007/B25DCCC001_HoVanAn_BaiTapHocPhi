@@ -1,4 +1,4 @@
-# Bài tập Ktra OOP
+﻿# Bài tập Ktra OOP
 
 ## Thông tin sinh viên
 - **Họ và tên:** Hồ Văn An
@@ -6,37 +6,46 @@
 - **Lớp:** D25CQCC01
 
 ## Mô tả
-Chương trình Java đọc danh sách sinh viên từ bàn phím, chuẩn hóa họ tên và ngày sinh, sau đó in ra danh sách đã chuẩn hóa.
+Repository chứa mã nguồn Java cho các bài tập kiểm tra OOP.
 
 ## Cấu trúc
-- `Main.java`: chứa lớp `SinhVien` và lớp `Main` (chương trình chính).
+- `Bai1.java`: Đọc danh sách sinh viên, chuẩn hóa họ tên và ngày sinh, in ra danh sách đã chuẩn hóa.
+- `Bai2.java`: File khung cho Bài 2 (cần bổ sung nội dung đề bài/xử lý).
 
 ## Hướng dẫn chạy chương trình
 
 ### Yêu cầu
 - Đã cài đặt JDK (Java Development Kit), khuyến nghị JDK 8 trở lên.
-- Có thể kiểm tra bằng lệnh:
+- Kiểm tra phiên bản:
   ```bash
   java -version
   javac -version
   ```
 
 ### Biên dịch và chạy
-Mở terminal tại thư mục `Ktra OOp` và thực hiện:
 
+Mở terminal tại thư mục project và chạy bài tương ứng:
+
+**Bài 1:**
 ```bash
-javac Main.java
-java Main
+javac Bai1.java
+java Bai1
 ```
 
-### Định dạng dữ liệu nhập
+**Bài 2:**
+```bash
+javac Bai2.java
+java Bai2
+```
+
+### Định dạng dữ liệu nhập (Bài 1)
 - Dòng 1: số nguyên `n` - số lượng sinh viên.
 - Với mỗi sinh viên, nhập lần lượt 3 dòng:
   1. Mã sinh viên
   2. Họ tên
-  3. Ngày sinh (định dạng `d/m/yyyy` hoặc `dd/mm/yyyy`)
+  3. Ngày sinh (`d/m/yyyy` hoặc `dd/mm/yyyy`)
 
-### Ví dụ
+### Ví dụ Bài 1
 **Input:**
 ```
 2

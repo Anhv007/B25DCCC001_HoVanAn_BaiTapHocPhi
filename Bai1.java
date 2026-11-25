@@ -1,5 +1,4 @@
-
-    import java.util.*;
+﻿    import java.util.*;
 
 class SinhVien {
     private String ma;
@@ -38,7 +37,7 @@ class SinhVien {
     }
 }
 
-public class Main {
+public class Bai1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine().trim());
@@ -55,4 +54,3 @@ public class Main {
         sc.close();
     }
 }
-
